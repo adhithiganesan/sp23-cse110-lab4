@@ -1,0 +1,2 @@
+1) The bug was that when the values being added were retrieved, they were stored as strings. So adding the two values as strings just concatenated them instead of mathematically adding them together. 
+2) I would fix it by converting the values being added to integers using the parseInt method before adding them.
